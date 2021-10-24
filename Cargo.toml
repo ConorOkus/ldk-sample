@@ -32,3 +32,11 @@ panic = "abort"
 
 [profile.dev]
 panic = "abort"
+
+[patch.crates-io]
+lightning = { path = "../rust-lightning/lightning" }
+lightning-background-processor = { path = "../rust-lightning/lightning-background-processor" }
+lightning-block-sync = { path = "../rust-lightning/lightning-block-sync" }
+lightning-persister = { path = "../rust-lightning/lightning-persister" }
+lightning-net-tokio = { path = "../rust-lightning/lightning-net-tokio" }
+lightning-invoice = { path = "../rust-lightning/lightning-invoice" }
